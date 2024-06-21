@@ -57,6 +57,7 @@ def main():
         UserInput = input("---------Select a Option or type N to exit---------- : ")
         if UserInput == 'N':
             Flag = 'N'
+            exit()
         elif UserInput == '1':
             sex = input("---------Select a Option for sex M/F---------- : ")
             UniqueNames(allyears,sex)
